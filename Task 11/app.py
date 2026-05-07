@@ -40,9 +40,29 @@ responses = {
         "keywords": ["contact", "phone", "call", "email"],
         "answer": "Call us at 123-456-7890 or email library@university.edu"
     },
+    "printing": {
+        "keywords": ["print", "copy", "scan", "printer"],
+        "answer": "We have printing and scanning facilities on the 1st floor. B&W is Rs.5/page, Color is Rs.20/page."
+    },
+    "food": {
+        "keywords": ["food", "eat", "drink", "coffee", "water", "cafe"],
+        "answer": "Only bottled water is allowed in the study areas. We have a cafeteria on the ground floor for eating/drinking."
+    },
+    "lost_found": {
+        "keywords": ["lost", "found", "missing", "forgot"],
+        "answer": "Our lost and found is at the main security desk near the entrance. Please ask the guard."
+    },
+    "events": {
+        "keywords": ["event", "workshop", "seminar"],
+        "answer": "We host weekly workshops. Check our notice board or ask the front desk for this week's schedule."
+    },
+    "restroom": {
+        "keywords": ["restroom", "toilet", "washroom", "bathroom"],
+        "answer": "Restrooms are located on the left wing of every floor, directly opposite the elevators."
+    },
     "help": {
-        "keywords": ["help", "assist", "guidance", "how"],
-        "answer": "I can help with: hours, location, book search, membership, due dates, fines, quiet zones, WiFi, and contact"
+        "keywords": ["help", "assist", "guidance", "how", "options"],
+        "answer": "I can help with: hours, location, book search, membership, due dates, fines, quiet zones, WiFi, contact, printing, food rules, lost & found, and restrooms."
     }
 }
 
